@@ -7,7 +7,7 @@
  # # RequestService
  # Factory in the AK.WebRequest.
 ###
-
+angular.module('AK.WebRequest',[])
 angular.module('AK.WebRequest').factory 'RequestService', ($http, $q, $log, APIUrls) ->
   RequestService = {}
   requestMethods =
