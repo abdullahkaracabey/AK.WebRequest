@@ -28,8 +28,9 @@ module.exports = (grunt) ->
         }]
     concat:
       dist:
-        src: ['.tmp/*.js']
-        dest:'.tmp/built.js'
+        cwd: '.tmp'
+        src: ['object.js', 'string.js', 'request-service.js', 'api_urls.js']
+        dest:'built.js'
     #   ng-annotate tries to make the code safe for minification automatically
     #   by using the Angular long form for dependency injection.
     ngAnnotate:
