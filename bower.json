@@ -1,0 +1,28 @@
+{
+  "name": "AK.WebRequest",
+  "authors": [
+    "Abdullah Karacabey <abdullahkaracabey@gmail.com>"
+  ],
+  "description": "Make $http request and change response camelcase for javascript etc.",
+  "main": "dist/request_service.js",
+  "moduleType": [
+    "globals"
+  ],
+  "dependencies": {
+    "angular": "^1.4.0"
+  },
+  "keywords": [
+    "angularjs",
+    "http",
+    "request"
+  ],
+  "license": "MIT",
+  "homepage": "abdullahkaracabey.com.tr",
+  "ignore": [
+    "src/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

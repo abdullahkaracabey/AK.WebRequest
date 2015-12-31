@@ -1,0 +1,26 @@
+{
+  "name": "ak.web-request",
+  "version": "0.1.0",
+  "description": "Make $http request and change response camelcase for javascript etc.",
+  "main": "dist/ak.web-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "http",
+    "request"
+  ],
+  "author": "Abdullah Karacabey",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-ng-annotate": "^1.0.1",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
