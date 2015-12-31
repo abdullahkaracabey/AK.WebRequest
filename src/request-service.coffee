@@ -5,7 +5,7 @@
  # @name RequestService
  # @description
  # # RequestService
- # Factory in the AK.Request.
+ # Factory in the AK.WebRequest.
 ###
 
 angular.module('AK.WebRequest').factory 'RequestService', ($http, $q, $log, APIUrls) ->

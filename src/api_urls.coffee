@@ -2,13 +2,13 @@
 
 ###*
  # @ngdoc service
- # @name AK.Request.APIUrls
+ # @name AK.WebRequest.APIUrls
  # @description
  # # APIUrls
- # Provider in the AK.Request.
+ # Provider in the AK.WebRequest.
 ###
 
-angular.module('AK.Request').provider 'APIUrls', ->
+angular.module('AK.WebRequest').provider 'APIUrls', ->
   @rootUrl=null
   @urls={}
   @requestFormat=null
