@@ -1,6 +1,6 @@
 {
   "name": "ak.web-request",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make $http request and change response camelcase for javascript etc.",
   "main": "dist/ak.web-request.js",
   "scripts": {
